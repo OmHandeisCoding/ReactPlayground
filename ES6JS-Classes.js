@@ -31,12 +31,12 @@ class Car extends TransportMachine{
     }
 }
 
-const mycar = new Car("Ford");
+const mycar = new Car("Ford","","air");
 const jatinscar = new Car('aulto',"2rs","land")
 console.log(mycar.changeGearUp(4))
 console.log(jatinscar.brand);
 console.log(jatinscar.medium);
-console.log(mycar.medium);
+console.log(mycar.TellMedium());
 
 class Bike{
     constructor(name,price,medium)
